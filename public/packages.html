@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Community Sponsorship Packages</title>
+<meta name="description" content="Put your name behind local athletes. Sponsorship packages from $500.">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#252525;--navy2:#2E2E2E;--navy3:#3C3C3C;--green:#4E73A7;--greend:#3E5E89;--gold:#9BD5FF;--ice:#CDD8E6;--light:#F2F2F2;--text:#494949;--mute:#8A8A8A;--line:#E2E2E2}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Montserrat',-apple-system,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.5}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  .hero{background:radial-gradient(1100px 540px at 80% -10%,var(--navy3),var(--navy) 60%);color:#fff;padding:84px 0 92px;text-align:center;position:relative;overflow:hidden}
+  .hero:after{content:"";position:absolute;right:-150px;top:-150px;width:480px;height:480px;border-radius:50%;background:rgba(155,213,255,.07)}
+  .hero .wrap{position:relative;z-index:2;max-width:840px}
+  .pill{display:inline-block;background:rgba(155,213,255,.14);color:var(--gold);font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;padding:7px 16px;border-radius:50px;margin-bottom:22px}
+  h1{font-size:46px;line-height:1.07;font-weight:800;letter-spacing:-1px;margin-bottom:18px;color:#fff}
+  h1 span{color:var(--gold)}
+  .sub{font-size:18px;color:var(--ice);max-width:640px;margin:0 auto}
+  .micro{margin-top:20px;color:var(--mute);font-size:13px;font-weight:600}
+  .pkgs{background:var(--light);padding:64px 0 56px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:stretch}
+  .tier{border:1px solid var(--line);border-radius:16px;padding:28px 22px;text-align:center;display:flex;flex-direction:column;background:#fff;box-shadow:0 8px 24px rgba(20,20,20,.05)}
+  .tier.feat{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:0 16px 40px rgba(20,20,20,.2)}
+  .tag{font-size:11px;font-weight:800;letter-spacing:1.5px;color:var(--gold);text-transform:uppercase;margin-bottom:8px;height:14px}
+  .tier h3{font-size:18px;font-weight:800;color:var(--navy);margin-bottom:12px}
+  .tier.feat h3{color:#fff}
+  .price{font-size:40px;font-weight:800;color:var(--greend);letter-spacing:-1px}
+  .tier.feat .price{color:var(--gold)}
+  .per{font-size:12px;color:var(--mute);margin-top:2px;font-weight:600}
+  .tier.feat .per{color:var(--ice)}
+  .inc{margin-top:18px;text-align:left;display:flex;flex-direction:column;gap:9px;flex:1}
+  .plus{font-size:11px;font-weight:800;color:var(--greend);text-transform:uppercase;letter-spacing:.4px;line-height:1.35}
+  .tier.feat .plus{color:var(--gold)}
+  .item{position:relative;padding-left:22px;font-size:13px;color:var(--text);font-weight:600;line-height:1.35}
+  .item:before{content:"✓";position:absolute;left:0;top:0;color:var(--greend);font-weight:800}
+  .tier.feat .item{color:#EAF1FB}
+  .tier.feat .item:before{color:var(--gold)}
+  .note{text-align:center;color:var(--mute);font-size:13px;font-style:italic;margin-top:26px}
+  .impact{background:var(--navy);color:#fff;padding:64px 0;text-align:center}
+  .impact h2{font-size:30px;font-weight:800;letter-spacing:-.4px;margin-bottom:14px;color:#fff}
+  .impact h2 span{color:var(--gold)}
+  .impact p{color:var(--ice);font-size:16px;max-width:620px;margin:0 auto}
+  .stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+  .stat{background:var(--navy2);border:1px solid var(--navy3);border-radius:14px;padding:20px 26px;min-width:200px}
+  .stat .n{font-size:30px;font-weight:800;color:var(--gold)}
+  .stat .l{font-size:12.5px;color:var(--ice);margin-top:4px}
+  .cta{background:#fff;padding:64px 0;text-align:center}
+  .cta h2{font-size:28px;font-weight:800;color:var(--navy);letter-spacing:-.4px;margin-bottom:12px}
+  .cta p{color:var(--text);font-size:16px;max-width:560px;margin:0 auto 8px}
+  .cta .hint{color:var(--mute);font-size:14px;font-style:italic}
+  footer{background:#1d1d1d;color:#8A8A8A;text-align:center;padding:22px 0;font-size:12.5px}
+  footer b{color:#CDD8E6}
+  @media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.grid{grid-template-columns:1fr}h1{font-size:34px}}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="pill">Community Sponsorship</span>
+    <h1>Put your name behind <span>local athletes</span>.</h1>
+    <p class="sub">Hundreds of local families hit our fields every week. Sponsoring the club puts your business in front of every one of them — on our jerseys, our fields, and our feeds — while keeping kids in the game.</p>
+    <p class="micro">Most sponsors choose between $1,000–$1,500 · Typically tax-deductible as a marketing expense</p>
+  </div>
+</section>
+
+<section class="pkgs">
+  <div class="wrap">
+    <div class="grid">
+
+      <div class="tier">
+        <div class="tag"></div>
+        <h3>Community Partner</h3>
+        <div class="price">$500</div>
+        <div class="per">per season</div>
+        <div class="inc">
+          <div class="item">Logo on our website</div>
+          <div class="item">Call-out on our Facebook &amp; Instagram</div>
+          <div class="item">Thank-you in our email newsletter</div>
+        </div>
+      </div>
+
+      <div class="tier">
+        <div class="tag"></div>
+        <h3>Silver Partner</h3>
+        <div class="price">$1,000</div>
+        <div class="per">per season</div>
+        <div class="inc">
+          <div class="plus">Everything in Community, plus</div>
+          <div class="item">Announcement in our team app</div>
+          <div class="item">Blog post / news-story feature</div>
+        </div>
+      </div>
+
+      <div class="tier feat">
+        <div class="tag">Most popular</div>
+        <h3>Gold Partner</h3>
+        <div class="price">$1,500</div>
+        <div class="per">per season</div>
+        <div class="inc">
+          <div class="plus">Everything in Silver — delivered 2× a year, plus</div>
+          <div class="item">A dedicated email featuring your business</div>
+        </div>
+      </div>
+
+      <div class="tier">
+        <div class="tag"></div>
+        <h3>Premier Partner</h3>
+        <div class="price">$2,500</div>
+        <div class="per">per season</div>
+        <div class="inc">
+          <div class="plus">Everything in Gold, plus</div>
+          <div class="item">Custom banner created &amp; placed at our fields</div>
+        </div>
+      </div>
+
+    </div>
+    <p class="note">Every package is fulfilled for you — we create the posts, the features, and the creative. You just say yes.</p>
+  </div>
+</section>
+
+<section class="impact">
+  <div class="wrap">
+    <h2>This beats a billboard. <span>By a mile.</span></h2>
+    <p>Parents notice the businesses that show up for their kids — and they remember at the register, at renewal time, and when a neighbor asks for a recommendation.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">1.5×</div><div class="l">more likely parents notice a local team sponsor vs. a pro team</div></div>
+      <div class="stat"><div class="n">Weekly</div><div class="l">visibility with local families, all season long</div></div>
+      <div class="stat"><div class="n">100%</div><div class="l">of your sponsorship keeps kids on the field</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Ready to get on the sponsor roster?</h2>
+    <p><b>Just reply "I'm in" to the email that brought you here</b> — tell us which package, and we'll handle everything else.</p>
+    <p class="hint">Questions first? Reply with them — a real person answers.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Powered by <b>IOI SponsorFlow</b> — the outsourced sponsorship department for youth sports</div>
+</footer>
+
+</body>
+</html>
